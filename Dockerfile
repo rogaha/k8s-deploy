@@ -8,6 +8,6 @@ RUN chmod +x ./kubectl
 RUN mv ./kubectl /usr/local/bin/kubectl
 
 # Install helm
-RUN curl -LO https://storage.googleapis.com/kubernetes-helm/helm-v2.9.1-linux-amd64.tar.gz
-RUN tar -zxvf helm-v2.9.1-linux-amd64.tar.gz
+RUN curl -LO https://storage.googleapis.com/kubernetes-helm/helm-v2.13.1-linux-amd64.tar.gz
+RUN tar -zxvf helm-v2.13.1-linux-amd64.tar.gz
 RUN mv linux-amd64/helm /usr/local/bin/helm
